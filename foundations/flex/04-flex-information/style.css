@@ -1,3 +1,4 @@
+
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -12,6 +13,26 @@ img {
   font-weight: 900;
 }
 
+.informationSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.plantSection {
+  display: flex;
+  flex-direction: row;
+  gap: 52px;
+  justify-content: center;
+}
+
+.plantItem {
+  align-self: center;
+  text-align: center;
+  flex-basis: 200px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
@@ -24,3 +45,4 @@ img {
   justify-content: center;
   background: #eee;
 }
+
